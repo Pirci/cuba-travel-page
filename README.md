@@ -1,4 +1,4 @@
-# cuba_travel_page
+# cuba-travel-page
 
 Using Sketch, create website from UI design via HTML & CSS
 
