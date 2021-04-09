@@ -8,9 +8,9 @@ body {
   overflow-x: hidden;
 }
 
-body {
-  font-family: "Merriweather", serif;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.6em;
+html {
+  font-size: 62.5%;
+}
+h1 {
+  font-size: 3rem;
 }
