@@ -33,12 +33,13 @@ Header Area Style
   color: #909090;
   text-align: center;
   border-bottom: 1px solid #d0d4d8;
+  padding-top: 3rem;
 }
 
-#header_area ul li {
-  display: inline-block;
-  padding-top: 3rem;
-  padding-left: 3rem;
+#header_area ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 25%;
 }
 
 #header_area .buttom_border {
@@ -61,7 +62,7 @@ Banner Area Style
 }
 
 #summary_area p {
-  width: 58%;
+  width: 59%;
   font-family: Avenir Next;
   font-size: 1.6rem;
   line-height: 2.7rem;
@@ -69,17 +70,13 @@ Banner Area Style
   margin: 0 auto;
 }
 
-.read-more {
+#summary_area .read-more {
   color: #ecb84c;
   font-weight: 500;
 }
 
-#summary_area ul li {
-  display: inline-block;
-  float: ;
-
-}
-
-.image-area {
-
+#summary_area .image-area ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3% 15%;
 }
