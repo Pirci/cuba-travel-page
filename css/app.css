@@ -19,6 +19,15 @@ h1 {
   font-size: 3rem;
 }
 
+p {
+  font-family: Avenir Next;
+  color: #909090;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
 /* ===============================================
 Header Area Style
 =============================================== */
@@ -53,7 +62,8 @@ Header Area Style
 Banner Area Style
 =============================================== */
 
-#summary_area h3 {
+#summary_area h2,
+.container h2 {
   text-align: center;
   font-family: Georgia;
   font-size: 3.2rem;
@@ -61,7 +71,8 @@ Banner Area Style
   margin: 5rem auto;
 }
 
-#summary_area p {
+#summary_area p,
+.container p {
   width: 59%;
   font-family: Avenir Next;
   font-size: 1.6rem;
@@ -70,7 +81,7 @@ Banner Area Style
   margin: 0 auto;
 }
 
-#summary_area .read-more {
+.read-more {
   color: #ecb84c;
   font-weight: 500;
 }
@@ -80,3 +91,12 @@ Banner Area Style
   justify-content: space-evenly;
   padding: 3% 15%;
 }
+
+.divider {
+  color: #a4a5a7;
+  max-width: 780px;
+  height: 1px;
+}
+
+
+
