@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  background-color: #ffffff;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -20,5 +24,23 @@ Header Area Style
 =============================================== */
 
 #header_area img {
-width: 100%;
+  width: 100%;
+}
+
+#header_area .menu {
+  font-size: 1.4em;
+  line-height: 6rem;
+  font-family: Avenir Next;
+  color: #909090;
+  text-align: center;
+}
+
+#header_area ul li {
+  display: inline-block;
+  padding-left: 3rem;
+}
+
+#header_area ul li:first-child {
+  color: #4e5665;
+  font-weight: 600;
 }
