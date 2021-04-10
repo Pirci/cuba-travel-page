@@ -29,18 +29,57 @@ Header Area Style
 
 #header_area .menu {
   font-size: 1.4em;
-  line-height: 6rem;
   font-family: Avenir Next;
   color: #909090;
   text-align: center;
+  border-bottom: 1px solid #d0d4d8;
 }
 
 #header_area ul li {
   display: inline-block;
+  padding-top: 3rem;
   padding-left: 3rem;
 }
 
-#header_area ul li:first-child {
+#header_area .buttom_border {
   color: #4e5665;
   font-weight: 600;
+  border-bottom: 4px solid #ecb84c;
+  padding-bottom: 3rem;
+}
+
+/* ===============================================
+Banner Area Style
+=============================================== */
+
+#summary_area h3 {
+  text-align: center;
+  font-family: Georgia;
+  font-size: 3.2rem;
+  color: #4e5665;
+  margin: 5rem auto;
+}
+
+#summary_area p {
+  width: 58%;
+  font-family: Avenir Next;
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  color: #505050;
+  margin: 0 auto;
+}
+
+.read-more {
+  color: #ecb84c;
+  font-weight: 500;
+}
+
+#summary_area ul li {
+  display: inline-block;
+  float: ;
+
+}
+
+.image-area {
+
 }
