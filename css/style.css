@@ -110,6 +110,10 @@ Banner Area Style
   height: 1px;
 }
 
+/* ===============================================
+Intro Area Style
+=============================================== */
+
 .historical {
   display: flex;
   justify-content: flex-end;
@@ -186,3 +190,7 @@ Banner Area Style
 .historical-image {
   width: 57%;
 }
+
+/* ===============================================
+Service Area Style
+=============================================== */
