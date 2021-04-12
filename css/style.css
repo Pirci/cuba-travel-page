@@ -32,9 +32,16 @@ img {
   max-width: 100%;
 }
 
-#header_area {
+#header_area,
+#visual_area,
+#footer_area {
   margin: 0 auto;
   width: 1441px;
+}
+
+#service_area {
+  margin: 0 auto;
+  width: 1170px;
 }
 
 #main-container {
@@ -108,6 +115,8 @@ Banner Area Style
 .divider {
   color: #ececec3b;
   height: 1px;
+  width: 1170px;
+  margin: 0 auto;
 }
 
 /* ===============================================
@@ -193,4 +202,46 @@ Intro Area Style
 
 /* ===============================================
 Service Area Style
+=============================================== */
+#service_area h2,
+h5 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#service_area h5 {
+  color: #ecb84c;
+  font-family: Avenir Next;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+#service_area .green {
+  position: relative;
+  z-index: 20;
+  margin-top: -5px;
+}
+
+#service_area .shadow {
+  position: relative;
+  z-index: 19;
+  margin-top: -16px;
+}
+
+/* #service_area .hoover {
+  position: relative;
+  z-index: 21;
+  margin-top: -100px;
+} */
+
+#main-container,
+.havana {
+  margin-top: 56px;
+  margin-bottom: 83px;
+  line-height: 30px;
+}
+
+/* ===============================================
+Footer Area Style
 =============================================== */
