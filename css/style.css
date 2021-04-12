@@ -12,10 +12,6 @@ body {
   background-color: #ffffff;
 }
 
-h1 {
-  font-size: 30px;
-}
-
 p {
   font-family: Avenir Next;
   color: #909090;
@@ -29,6 +25,11 @@ img {
   max-width: 100%;
 }
 
+#header_area {
+  margin: 0 auto;
+  width: 1441px;
+}
+
 #main-container {
   margin: 0 auto;
   width: 970px;
@@ -40,7 +41,6 @@ Header Area Style
 
 #header_area img {
   width: 100%;
-  margin: 0 auto;
 }
 
 #header_area .menu {
@@ -55,14 +55,14 @@ Header Area Style
 #header_area ul {
   display: flex;
   justify-content: space-evenly;
-  padding: 0 25%;
+  padding: 0 350px;
 }
 
 #header_area .buttom_border {
   color: #4e5665;
   font-weight: 600;
   border-bottom: 4px solid #ecb84c;
-  padding-bottom: 3rem;
+  padding-bottom: 25px;
 }
 
 /* ===============================================
@@ -73,16 +73,16 @@ Banner Area Style
 .container h2 {
   text-align: center;
   font-family: Georgia;
-  font-size: 3.2rem;
+  font-size: 32px;
   color: #4e5665;
-  margin: 5rem auto;
+  margin: 60px auto;
 }
 
 #summary_area p,
 .container p {
   font-family: Avenir Next;
-  font-size: 1.6rem;
-  line-height: 2.7rem;
+  font-size: 16px;
+  line-height: 26px;
   color: #505050;
   margin: 0 auto;
 }
@@ -95,11 +95,11 @@ Banner Area Style
 #summary_area .image-area ul {
   display: flex;
   justify-content: space-evenly;
-  padding: 3% 15%;
+  padding: 50px 20px;
 }
 
 .divider {
-  color: #a4a5a7;
+  color: #ececec3b;
   height: 1px;
 }
 
