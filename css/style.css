@@ -250,8 +250,58 @@ h5 {
 
 #visual_area {
   display: flex;
+  position: relative;
+}
+
+.cuba-photos {
+  max-width: 1441px;
+}
+
+.one {
+  max-height: 480px;
+  z-index: 99;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.two {
+  max-height: 420px;
+  z-index: 98;
+  margin-left: 180px;
+  margin-top: 30px;
+}
+
+.three {
+  max-height: 315px;
+  z-index: 97;
+  margin-left: -700px;
+  margin-top: 83px;
+}
+
+.four {
+  max-height: 420px;
+  z-index: 98;
+  margin-left: 230px;
+  margin-top: 30px;
+}
+
+.five {
+  position: absolute;
+  max-height: 315px;
+  z-index: 97;
+  right: 30px;
+  margin-top: 83px;
 }
 
 /* ===============================================
 Footer Area Style
 =============================================== */
+
+#footer_area {
+  margin-top: 60px;
+}
