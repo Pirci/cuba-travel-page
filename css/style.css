@@ -277,16 +277,18 @@ h5 {
 }
 
 .three {
+  position: absolute;
   max-height: 315px;
   z-index: 97;
-  margin-left: -700px;
+  left: 0px;
   margin-top: 83px;
 }
 
 .four {
+  position: absolute;
   max-height: 420px;
   z-index: 98;
-  margin-left: 230px;
+  right: 190px;
   margin-top: 30px;
 }
 
@@ -294,8 +296,22 @@ h5 {
   position: absolute;
   max-height: 315px;
   z-index: 97;
-  right: 30px;
+  right: 0px;
   margin-top: 83px;
+}
+
+.arrow .left {
+  top: 220px;
+  z-index: 100;
+  position: absolute;
+  left: 380px;
+}
+
+.arrow .right {
+  top: 220px;
+  z-index: 100;
+  position: absolute;
+  right: 380px;
 }
 
 /* ===============================================
