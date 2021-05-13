@@ -1,16 +1,29 @@
-# Cuba Travel Page
+# PSD to Cuba Travel Page Website
 
-Necessary pictures will be taken from the PSD design with Sketch.
-
-While creating the structure of the page, CSS Grid and Flexbox are used.
-
-Websites create mobile first design approach.
-
-Please click on the link below to view it.
-
-https://pirci.github.io/cuba-travel-page/
+> Creating a website by installing the psd file design from scratch. The goal is to build website according to original dimensions from design file. 
 
 
+Live Demo
+
+Preview:  https://pirci.github.io/cuba-travel-page/
 
 
-![1-Landing-Page-Cuba](https://user-images.githubusercontent.com/43238947/111435420-10b5d080-8701-11eb-96f7-3ef57ae23239.jpg)
+![cuba-travel-page](demo.gif)
+
+## What I Learned:
+
+- Getting the necessary assets from the PSD file.
+- Get used to the Adobe XD interface.
+- Using Chrome/Firefox's developer tools to debug and see underlying code
+- How elements get placed, styled, and aligned on the page
+- Organizing code with divs to make items easier to position
+- Using CSS Flexbox for the layout of the page
+- Multiple types of CSS selectors
+
+## Possible Improvements
+
+- Cleaner code
+- Use more semantic elements
+- Formatting could be improved when viewing on certain devices/browsers
+
+
